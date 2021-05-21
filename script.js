@@ -13,12 +13,12 @@ document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
   //Cuando no hay numero
   if (!guess) {
-    displayMessage('🛑 No number!');
+    displayMessage('🛑 Ops no hemos encontrado un numero!');
 
     //Cuando el Jugador Ganó
   } else if (guess === secretNumber) {
     //Cuando Ganas!
-    displayMessage('🎊Correct Number!');
+    displayMessage('🎊Adivinaste!');
     document.querySelector('.number').textContent = secretNumber;
 
     document.querySelector('body').style.backgroundColor = '#60b347';
