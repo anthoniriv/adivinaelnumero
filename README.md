@@ -4,6 +4,8 @@
 
 **A classic "guess the number" game (1–20) — my very first JavaScript project.**
 
+<img src="screenshot.png" alt="Adivina el Número screenshot" width="600">
+
 <p>
   <a href="https://anthoniriv.github.io/adivinaelnumero/"><img src="https://img.shields.io/badge/Play_Now-00C853?style=for-the-badge&logo=github" alt="Play Now"></a>
 </p>
